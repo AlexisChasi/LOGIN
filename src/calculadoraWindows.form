@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calculadora">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="501" height="416"/>
+    </constraints>
+    <properties>
+      <background color="-16580509"/>
+      <foreground color="-4473925"/>
+      <maximumSize width="500" height="1000"/>
+      <minimumSize width="100" height="100"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d62d0" class="javax.swing.JButton" binding="igualButton">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="e4c36" class="javax.swing.JButton" binding="decimalButton">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value=","/>
+        </properties>
+      </component>
+      <component id="ec712" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="8cbd5" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="1457d" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="7a30f" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <hideActionText value="false"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="5ebe9" class="javax.swing.JButton" binding="divisionButton">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="a11fc" class="javax.swing.JButton" binding="multipButton">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="c017d" class="javax.swing.JButton" binding="masButton">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="6e225" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="e1698" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="6efe1" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="3b04b" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="abdba" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="2533d" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13601381"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="2568" class="javax.swing.JLabel" binding="salida">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Britannic Bold" size="22"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="4"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="a669f" class="javax.swing.JLabel" binding="salidaResultado">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="7" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Britannic Bold" size="22"/>
+          <foreground color="-1"/>
+          <horizontalTextPosition value="4"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="db8" class="javax.swing.JButton" binding="menosButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="f1861" class="javax.swing.JButton" binding="borrarButton">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14197892"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <text value="⌫"/>
+        </properties>
+      </component>
+      <component id="52079" class="javax.swing.JButton" binding="cButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="false"/>
+          <background color="-14197892"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="true"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <font name="Britannic Bold" size="16"/>
+          <foreground color="-4473925"/>
+          <hideActionText value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="C"/>
+          <toolTipText value=""/>
+          <verticalAlignment value="0"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <vspacer id="59c3c">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="633cc">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
