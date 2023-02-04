@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ventanaComponentes extends login{
     public JPanel componentes;
@@ -8,27 +10,15 @@ public class ventanaComponentes extends login{
     private JButton calculadoraButton;
     private JButton conversorDivisasButton;
     private JButton costoProductoButton;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
-    private JButton button10;
+    private JButton conversorDeNúmerosBinariosButton;
     private JPanel comp;
     private JLabel c1;
     private JLabel c2;
     private JLabel c3;
     private JLabel c4;
-    private JLabel c5;
-    private JLabel c6;
-    private JLabel c7;
-    private JLabel c8;
-    private JLabel c9;
-    private JLabel c10;
 
 
-public ventanaComponentes() {
+    public ventanaComponentes() {
     calculadoraButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -62,5 +52,17 @@ public ventanaComponentes() {
             costo_de_producto.setVisible(true);
         }
     });
+
+    conversorDeNúmerosBinariosButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            JFrame binariodecimal = new JFrame("Conversor de Números Binarios");
+            binariodecimal.setContentPane(new binario().convertidorBinario);
+            binariodecimal.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            binariodecimal.pack();
+            binariodecimal.setVisible(true);
+        }
+    });
 }
 }
+
