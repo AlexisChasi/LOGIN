@@ -7,7 +7,7 @@ public class ventanaComponentes extends login{
     private JLabel titulo;
     private JButton calculadoraButton;
     private JButton conversorDivisasButton;
-    private JButton button3;
+    private JButton costoProductoButton;
     private JButton button4;
     private JButton button5;
     private JButton button6;
@@ -32,22 +32,34 @@ public ventanaComponentes() {
     calculadoraButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            JFrame miCalculadora = new JFrame("interfaz");
-            miCalculadora.setContentPane(new interfaz().Plantilla);
-            miCalculadora.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            miCalculadora.pack();
-            miCalculadora.setVisible(true);
+            JFrame frame =new JFrame("Calculadora de Windows");
+            frame.setContentPane(new calculador_Windows().panelPrincipal);
+            frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            frame.setSize(1000,1000);
+            frame.pack();
+            frame.setVisible(true);
         }
     });
     conversorDivisasButton.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            JFrame calcDivisas = new JFrame("divisas");
+            JFrame calcDivisas = new JFrame("Convertidor de Divisas");
             calcDivisas.setContentPane(new divisas().convertidorDivisas);
-            calcDivisas.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            calcDivisas.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             calcDivisas.pack();
             calcDivisas.setVisible(true);
 
+        }
+    });
+
+    costoProductoButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            JFrame costo_de_producto = new JFrame("Calculador de Costo de Producto");
+            costo_de_producto.setContentPane(new costo_Producto().costoProducto);
+            costo_de_producto.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            costo_de_producto.pack();
+            costo_de_producto.setVisible(true);
         }
     });
 }

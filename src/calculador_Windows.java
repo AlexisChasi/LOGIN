@@ -1,10 +1,9 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.DecimalFormat;
 
-public class calculadora {
-    private JPanel panelPrincipal;
+public class calculador_Windows extends login {
+    public JPanel panelPrincipal;
     private JButton menosButton;
     private JButton igualButton;
     private JButton decimalButton;
@@ -30,7 +29,7 @@ public class calculadora {
     private double valor1, valor2, resultado;
     private String tipoOperaciones;
 
-    public calculadora(){
+    public calculador_Windows(){
         a0Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -348,15 +347,5 @@ public class calculadora {
 
                 }
         }
-    }
-    public static void main(String[] args) {
-        JFrame frame =new JFrame("calculadora");
-
-        frame.setContentPane(new calculadora().panelPrincipal);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1000,1000);
-        frame.pack();
-        frame.setVisible(true);
-
     }
 }
