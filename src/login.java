@@ -37,9 +37,6 @@ public class login {
                     misComponentes.pack();
                     misComponentes.setVisible(true);
 
-
-
-
                 } else {
                     JOptionPane.showMessageDialog(validacion, "Usuario o contraseña incorrectos");
                 }
